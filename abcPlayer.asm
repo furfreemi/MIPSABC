@@ -59,7 +59,7 @@ close:
     	syscall
     	
     	li $v0, 31  		# syscall to play midi  
-    	li $a0, 64  	     	# set midi pitch to g
+    	li $a0, 67  	     	# set midi pitch to g
     	li $a1, 1000		# set midi duration to 1000 ms (1 second)  
     	li $a2, 0		# set midi instrument to piano d
 	li $a3, 127		# TURN IT UP TO 11
